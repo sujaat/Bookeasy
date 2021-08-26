@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookEasy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Yanone+Kaffeesatz&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="img/logomain.png" alt="Logo"></div>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/books.html">Books</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+        <div class="rightnav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-pramary">Welcome to BookEasy.com</h1>
+        <p>Here you can find best books to buy and can download its pdf with one click</p>
+        <p>Click the link below to directly jump into the books section.
+        </p>
+        <button class="btn-main"><a href="/books.html">Explore Books</a></button>
+    </section>
+
+    <section id="books-container">
+        <div id="books">
+            <div class="box">
+                <h2 class="h-secondary center">List of books/E-books</h2>
+                <img src="img/me.jpg" alt="travel 360">
+                <button class="btn-main"><a href="/books.html">Books</a></button>
+            </div>
+            <div class="box">
+                <h2 class="h-secondary center">About Us</h2>
+                <img src="img/abt.jpg" alt="travel 360">
+                <button class="btn-main"><a href="/about.html">About us</a></button>
+            </div>
+            <div class="box">
+                <h2 class="h-secondary center">Contact Us</h2>
+                <img src="img/con.jpg" alt="travel 360">
+                <button class="btn-main"><a href="/contact.html">Contact us</a></button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="background">
+       <p class="text-footer">Copyright &copy; 2021 - All Right Reserved</p>
+       <p class="text-footer-2"> Made with Love ♥ by Sujaat Shafique</p> 
+    </footer>
+    <script src="style.js"></script>
+</body>
+</html>
